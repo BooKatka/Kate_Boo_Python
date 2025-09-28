@@ -1,0 +1,3 @@
+first_name = input ("Ваше имя: Kate")
+last_name = input ("Ваша фамилия: Buruchenko")
+print(f'Вас зовут: {last_name} {first_name}')
