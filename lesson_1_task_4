@@ -1,0 +1,4 @@
+def print_greet():
+	print("Привет,Мир!")
+
+print_greet()
