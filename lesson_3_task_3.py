@@ -7,7 +7,7 @@ to_address = 660018, "г. Красноярск", "ул. Мира", 81, 1
 from_address = 368844, "г. Краснодар", "ул. Лазо", 21, 8
 
 sending = Mailing
-sending(to_address, from_address, 1900, 1234560)
+sending(to_address, from_address, 1900, 123456)
 
 print(
     "Отправление",
@@ -19,4 +19,5 @@ print(
     ". Стоимость",
     sending.cost,
     "рублей.",
+
 )
