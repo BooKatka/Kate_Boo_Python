@@ -14,4 +14,6 @@ sleep(20)
 search_input.clear()
 search_input.send_keys("Pro")
 
+driver.quit()
+
 sleep(20)
