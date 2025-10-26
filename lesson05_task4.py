@@ -14,4 +14,8 @@ search_input_password = driver.find_element(By.XPATH, '//*[@id="password"]')
 search_input_password.send_keys("SuperSecretPassword!")
 search_input = driver.find_element(By.XPATH, '//*[@id="login"]/button')
 search_input.click()
+
+element = driver.find_element_by_id("flash")
+print(element.text) 
+
 sleep(5)
