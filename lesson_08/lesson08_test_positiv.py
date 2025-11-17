@@ -45,4 +45,17 @@ def test_edit_project(get_token):
     )
     
     print(response.json())
+
     assert response.status_code == 200
+
+def get_projects_list(get_token):
+    headers = {'Content-Type': 'application/json',
+               'Authorization': f'Bearer 1748757553785_50f0e10c25f740275536455d77ad9a4218d67fb67ad6dd882b35d4ea06ecf94f'}
+
+# GET-запрос для получения списка проектов
+    response = requests.get(
+        'https://ru.yougile.com/api-v2/projects',
+        headers=headers
+    )
+    print(response.json())  
+    get_projects_list('')
